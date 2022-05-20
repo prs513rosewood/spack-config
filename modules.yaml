@@ -1,10 +1,8 @@
 modules:
   default:
-    roots:
-      lmod: ~/lmod
     enable:
-    - lmod
-    lmod:
+      - tcl
+    tcl:
       hash_length: 0
       projections:
         all: '{name}/{version}'
